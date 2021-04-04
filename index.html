@@ -16,26 +16,32 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#"><i class="bi bi-person-circle"></i>Asrul EN</a>
+        <a class="navbar-brand fw-bold" href="#"><i class="bi bi-person-circle me-1 text-success"></i>Asrul EN</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse ms-auto" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li><hr class="dropdown-divider"></li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill me-2"></i>Beranda</a>
+              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill me-1 text-primary"></i>Beranda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#profil"><i class="bi bi-file-person-fill"></i>Profil</a>
+              <a class="nav-link" href="#profil"><i class="bi bi-file-person-fill me-1 text-dark"></i>Profil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skill">Skill</a>
+              <a class="nav-link" href="#skill"><i class="bi bi-archive-fill me-1 text-danger"></i>Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#galleri">Galleri</a>
+              <a class="nav-link" href="#galleri"><i class="bi bi-camera-fill me-1 text-warning"></i>Galleri</a>
             </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak"><i class="bi bi-telephone-fill me-1"></i></i>Kontak</a>
+            </li>
+            <li><hr class="dropdown-divider"></li>
           </ul>
         </div>
       </div>
@@ -101,7 +107,7 @@
         <!-- baris 2 -->
         <div class="row mb-4">
           <div class="col-lg-4">
-            <div class="card" width="19rem">
+            <div class="card1" width="19rem">
               <img src="img/1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="text-center">HTML</h5>
@@ -109,7 +115,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" width="19rem">
+            <div class="card1" width="19rem">
               <img src="img/2.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="text-center">CSS</h5>
@@ -117,7 +123,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" width="19rem">
+            <div class="card1" width="19rem">
               <img src="img/3.jpg" class="card-img-top" alt="..." />
               <div class="card-body text-center">
                 <h5 class="text-center">SQL</h5>
@@ -129,7 +135,7 @@
         <!-- baris 3 -->
         <div class="row mb-4">
           <div class="col-lg-4">
-            <div class="card" width="19rem">
+            <div class="card1" width="19rem">
               <img src="img/4.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="text-center">Javascript</h5>
@@ -137,7 +143,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" width="19rem">
+            <div class="card1" width="19rem">
               <img src="img/5.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="text-center">PHP</h5>
@@ -145,7 +151,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" width="19rem">
+            <div class="card1" width="19rem">
               <img src="img/6.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="text-center">Command Line</h5>
@@ -235,27 +241,76 @@
           </div>
         </div>
         <!-- baris 2 -->
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Nama Lengkap</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="masukkan nama anda" />
+        <div class="row g-3 justify-content-center">
+          <div class="col-md-5">
+            <div class="card">
+              <div class="card-header">
+               <h4>Informasi </h4> 
               </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="masukkan email anda" />
+
+              <div class="card-body">
+                <div class="row g-3">
+                  <div class="col-12">
+                    <p class="card-text"><i class="bi bi-house-fill me-1"></i>Jl. Raja Enda Mora No. 16</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="card-text"><i class="bi bi-house-fill me-1"></i>Website : https://asrul1302.github.io/Asrul1302/</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="card-text"><i class="bi bi-envelope-fill me-1"></i>asrulnst83@gmail.com</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="card-text"><a href="https://api.whatsapp.com/send?phone=6281361690812&text=Silahkan Chat" data-toggle="tooltip" target=
+                      "_blank" data-placement="" title="WhatsApp"><i class="bi bi-whatsapp me-1"></i></a>0813-6169-0812</p>
+                  </div>
+                  <div class="col-12">
+                    <p class="card-text text-start">
+                      <span><a href="" data-toggle="tooltip" target=
+                       "_blank" data-placement="" title="Facebook"><i class="bi bi-facebook me-2 display-5 text-primary"></i></a></span>
+                      <span><a href="" data-toggle="tooltip" target=
+                       "_blank" data-placement="" title="Instagram"><i class="bi bi-instagram me-2 display-6 text-cyan"></i></a></span>
+                      <span><a href="" data-toggle="tooltip" target=
+                       "_blank" data-placement="" title="YouTube"> <i class="bi bi-youtube me-2 display-6 text-danger"></i></a></span>
+                       <span><a href="" data-toggle="tooltip" target=
+                         "_blank" data-placement="" title="Linkedin"><i class="bi bi-linkedin me-2 display-6 text-success"></i></a></span></p>
+                  </div>
+                </div>
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">No WhatsApp</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="masukkan nomor whatsapp anda" />
+
+            </div>  
+     
+          </div>
+
+          <div class="col-lg-7">
+            <div class="card">
+              <div class="card-header">
+               <h4>Formulir</h4> 
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Pesan</label>
-                <textarea class="form-control" aria-label="With textarea" placeholder="Masukkan pesan anda"></textarea>
+              <div class="card-body">
+                <form>
+                  <div class="row g-3">
+                    <div class="col-6">
+                      <input type="text" class="form-control" placeholder="Nama Depan" aria-label="Nama Depan">
+                    </div>
+                    <div class="col-6">
+                      <input type="text" class="form-control" placeholder="Nama Belakang" aria-label="Nama Belakang">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="No WhatsApp" aria-label="No WhatsApp">
+                    </div>
+                    <div class="col-12">
+                    <textarea class="form-control" aria-label="With textarea" placeholder="Masukkan pesan anda"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Kirim</button>
+                    </div> 
+                  </div>  
+                </form>
               </div>
-              <button type="submit" class="btn btn-info mb-4">Kirim</button>
-            </form>
+          </div>
           </div>
         </div>
       </div>
@@ -270,34 +325,16 @@
 
     <!-- footer -->
 
-    <section class="footer" id="footer">
-      <div class="container">
+    
+      <div class="container-fluid footer bg-light" id="footer">
         <div class="row">
           <div class="col-sm">
-            <h5>Media Sosial</h5>
-            <ul type="" class="">
-              <li>
-                <a href="#" data-toggle="tooltip" data-placement="" title="Telegram"><i class="bi bi-telegram text-primary h4"></i></a><span class="ms-2">Telegram</span>
-              </li>
-              <li>
-                <a href="https://chat.whatsapp.com/CcQ8VML3nLD5HeeUD2AZuv" data-toggle="tooltip" data-placement="" title="WhatsApp"> <i class="bi bi-whatsapp text-success h4"></i></a><span class="ms-2">WhatsApp</span>
-              </li>
-              <li>
-                <a href="#" data-toggle="tooltip" data-placement="" title="Github"><i class="bi bi-github text-warning h4"></i></a><span class="ms-2">Github</span>
-              </li>
-              <li>
-                <a href="#" data-toggle="tooltip" data-placement="" title="Mail"><i class="bi bi-envelope text-muted h4"></i></a><span class="ms-2">Mail</span>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm">
-            <p class="">Created by @new SKO Studio</p>
-          </div>
-          <div class="col-sm">One of three columns</div>
-        </div>
+            <p class="text-center">Created by <i class="bi bi-heart-fill me-1 text-danger"></i>newSKO Studio <i class="bi bi-at me-1"></i>2021</p>
+          </div> 
       </div>
-    </section>
+   
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>
 </html>
+<!-- https://asrul1302.github.io/Asrul1302/ -->
