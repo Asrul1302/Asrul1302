@@ -4,7 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta name="description" content="Portofolio">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="author" content="Asrul Efendy Nasution">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
 
@@ -16,9 +18,9 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="#"><i class="bi bi-person-circle me-1 text-success"></i>Asrul EN</a>
+        <a class="navbar-brand fw-bold" href="#"><img class="img rounded-circle me-1 d-inline" src="img/asrul.png" alt="" width="35" height="35">Asrul EN</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,18 +28,20 @@
           <ul class="navbar-nav ms-auto">
             <li><hr class="dropdown-divider"></li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill me-1 text-primary"></i>Beranda</a>
+              <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-fill me-1 text-dark"></i>Beranda</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#profil"><i class="bi bi-file-person-fill me-1 text-dark"></i>Profil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skill"><i class="bi bi-archive-fill me-1 text-danger"></i>Skill</a>
+              <a class="nav-link" href="#skill"><i class="bi bi-archive-fill me-1 text-dark"></i>Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#galleri"><i class="bi bi-camera-fill me-1 text-warning"></i>Galleri</a>
+              <a class="nav-link" href="#proyek"><i class="bi bi-list-task me-1 text-dark"></i>Proyek</a>
             </li>
-            
+            <li class="nav-item">
+              <a class="nav-link" href="#galleri"><i class="bi bi-camera-fill me-1 text-dark"></i>Galleri</a>
+            </li>   
             <li class="nav-item">
               <a class="nav-link" href="#kontak"><i class="bi bi-telephone-fill me-1"></i></i>Kontak</a>
             </li>
@@ -49,9 +53,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbo text-center" id="jumbo">
-      <img src="img/asrul.png" alt="Asrul EN" width="200px" class="rounded-circle shadow mt-4" />
+      <img src="img/asrul.png" alt="Asrul EN" width="200px" class="rounded-circle shadow mt-3" />
       <h2>Asrul Efendy Nasution</h2>
-      <p>Guru TIK | Programmer Freelance</p>
+      <p>Guru & Instruktur IT</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -65,24 +69,24 @@
     <section class="profil" id="profil">
       <div class="container">
         <div class="row text-center mb-4">
-          <div class="col-lg">
+          <div class="col">
             <h2>Profil</h2>
           </div>
         </div>
         <!-- table 1 -->
         <div class="row gx-5 justify-content-center">
-          <div class="col-lg">
-            <p class="text-success text-center lh-lg border bg-light p-3">
-              Hai, Nama saya <span class="font-weight-bold">Asrul Efendy Nasution</span> (lahir tanggal 13 Februari 1983) merupakan Guru TIK, Instruktur dan Programmer Freelance. Saya lahir dan besar di Kota Padangsidimpuan, Provinsi
-              Sumatera Utara. Sejak tahun 2008 telah mengajar di beberapa lembaga pendidikan baik tingkat SMP, SMA, SMK, D1 dan D3 di Kota Padangsidimpuan. Saat ini aktif mengajar di SMA SWASTA NURUL 'ILMI kelas X (Sepuluh) & SMP SWASTA
+          <div class="col-md">
+            <p class="text-center lh-lg border bg-light p-3">
+              Hai, Nama saya <span class="fw-bold">Asrul Efendy Nasution</span> (lahir tanggal 13 Februari 1983) merupakan Guru TIK, Instruktur dan Programmer Freelance. Saya lahir dan besar di Kota Padangsidimpuan, Provinsi
+              Sumatera Utara. Sejak tahun 2009 telah mengajar di beberapa lembaga pendidikan baik tingkat SMP, SMA, SMK, D1 dan D3 di kota Padangsidimpuan. Saat ini aktif mengajar di SMA SWASTA NURUL 'ILMI kelas X (Sepuluh) & SMP SWASTA
               NURUL 'ILMI kelas VIII (Delapan) mengampuh mata pelajaran Informatika.
             </p>
           </div>
-          <div class="col-lg gx-5 justify-content-center">
-            <p class="text-success text-center lh-lg border bg-light p-3">
-              Alhamdulillah, saya telah menamatkan gelar Sarjana mengambil jurusan Sistem Informasi Fakultas Ilmu Komputer di Universitas Gunadarma, Jakarta tahun 2006, Sempat bekerja di perusahaan swasta sebagai programmer junior sampai
-              akhir tahun 2008, Saat ini selain mengajar, saya juga instruktur privat/kursus komputer khusus di bidang Pemrograman Aplikasi, Web dan Database. Selain itu juga bercita-cita memiliki Studio Komputer untuk pengembangan
-              pemrograman aplikasi.
+          <div class="col-md gx-5 justify-content-center">
+            <p class="text-center lh-lg border bg-light p-3">
+              Alhamdulillah, saya telah menamatkan gelar Sarjana dari Fakultas Ilmu Komputer mengambil jurusan Sistem Informasi di Universitas Gunadarma, Jakarta tahun 2006, pernah bekerja di perusahaan swasta sebagai programmer sampai
+              akhir tahun 2008, Saat ini selain mengajar, saya juga sebagai instruktur privat & kursus komputer khusus di bidang pemrograman aplikasi, web dan database. Selain itu juga bercita-cita memiliki studio komputer untuk pengembangan
+              pemrograman web dan aplikasi.
             </p>
           </div>
         </div>
@@ -101,71 +105,45 @@
       <div class="container">
         <!-- baris 1 -->
         <div class="row text-center mb-4">
-          <div class="col"><h2>Skill</h2></div>
+          <div class="col"><h2>Skill</h2>
+          <span>Kemampuan yang dimiliki </span>
         </div>
-
+        </div>
         <!-- baris 2 -->
-        <div class="row mb-4">
-          <div class="col-lg-4">
-            <div class="card1" width="19rem">
-              <img src="img/1.jpg" class="card-img-top" alt="..." />
+        <div class="row mb-4 justify-content-center">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/1a.jpg" class="rounded d-block w-100" alt="...">
               <div class="card-body">
-                <h5 class="text-center">HTML</h5>
+                <h5 class="card-title text-center">HTML</h5>
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="card1" width="19rem">
-              <img src="img/2.jpg" class="card-img-top" alt="..." />
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/1b.jpg" class="rounded d-block w-100" alt="">
               <div class="card-body">
-                <h5 class="text-center">CSS</h5>
+                <h5 class="card-title text-center">CSS</h5>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card1" width="19rem">
-              <img src="img/3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body text-center">
-                <h5 class="text-center">SQL</h5>
+           </div>
+           <div class="col-md-4">
+            <div class="card">
+              <img src="img/1c.jpeg" class="rounded d-block w-100" alt="">
+              <div class="card-body">
+                <h5 class="card-title text-center">JAVASCRIPT</h5>
               </div>
             </div>
+           </div>
           </div>
         </div>
-
-        <!-- baris 3 -->
-        <div class="row mb-4">
-          <div class="col-lg-4">
-            <div class="card1" width="19rem">
-              <img src="img/4.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="text-center">Javascript</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card1" width="19rem">
-              <img src="img/5.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="text-center">PHP</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card1" width="19rem">
-              <img src="img/6.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="text-center">Command Line</h5>
-              </div>
-            </div>
-          </div>
-        </div>
+        </div>  
       </div>
-
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#d1f3fa"
+          fill="#ffffff"
           fill-opacity="1"
-          d="M0,32L48,80C96,128,192,224,288,250.7C384,277,480,235,576,186.7C672,139,768,85,864,85.3C960,85,1056,139,1152,149.3C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          d="M0,160L48,170.7C96,181,192,203,288,186.7C384,171,480,117,576,85.3C672,53,768,43,864,80C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
@@ -175,37 +153,61 @@
       <div class="container">
         <!-- baris 1 -->
         <div class="row text-center mb-4">
-          <div class="col-md"><h2>Galleri</h2></div>
+          <div class="col"><h2>Galleri</h2></div>
         </div>
         <!-- baris 2 -->
         <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="col">
+            <div id="carouselExampleDark" class="carousel carousel-fade slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="2000">
-                  <img src="img/1.jpg" class="d-block w-100" alt="..." />
-                  <div class="carousel-caption d-none d-sm-block">
-                    <h5 class="text-white">slide label</h5>
-                    <p class="text-white">Some repres.</p>
+                  <img src="img/1.jpg" class="rounded d-block w-100" alt="" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white">Studi Banding</h5>
+                    <p class="text-white">TP. 2018/2019</p>
                   </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                  <img src="img/2.jpg" class="d-block w-100" alt="..." />
+                  <img src="img/2.jpg" class="img-fluid rounded d-block w-100" alt="" />
                   <div class="carousel-caption d-none d-sm-block">
-                    <h5 class="text-white">slide label</h5>
-                    <p class="text-white">Some</p>
+                    <h5 class="text-white">Proktor UNBK</h5>
+                    <p class="text-white">TP. 2017 s.d 2020</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/3.jpg" class="d-block w-100" alt="..." />
+                  <img src="img/3.jpg" class="rounded d-block w-100" alt="" />
                   <div class="carousel-caption d-none d-sm-block">
-                    <h5 class="text-white">slide label</h5>
-                    <p class="text-white">Some representativ</p>
+                    <h5 class="text-white">Teknisi USBK</h5>
+                    <p class="text-white">TP. 2020/2021</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/4.jpg" class="rounded d-block w-100" alt="" />
+                  <div class="carousel-caption d-none d-sm-block">
+                    <h5 class="text-white">Pelatihan</h5>
+                    <p class="text-white">TP. 2018/2019</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/5.jpg" class="rounded d-block w-100" alt="" />
+                  <div class="carousel-caption d-none d-sm-block">
+                    <h5 class="text-white">Pembina KSN Komputer</h5>
+                    <p class="text-white">TP. 2020/2021</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/6.jpg" class="rounded d-block w-100" alt="" />
+                  <div class="carousel-caption d-none d-sm-block">
+                    <h5 class="text-white">MGMP Informatika</h5>
+                    <p class="text-white">TP. 2020/2021</p>
                   </div>
                 </div>
               </div>
@@ -221,7 +223,6 @@
           </div>
         </div>
       </div>
-
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#d1f3fa"
@@ -242,26 +243,25 @@
         </div>
         <!-- baris 2 -->
         <div class="row g-3 justify-content-center">
-          <div class="col-md-5">
-            <div class="card">
+          <div class="col">
+            <div class="card1">
               <div class="card-header">
                <h4>Informasi </h4> 
               </div>
-
               <div class="card-body">
                 <div class="row g-3">
                   <div class="col-12">
-                    <p class="card-text"><i class="bi bi-house-fill me-1"></i>Jl. Raja Enda Mora No. 16</p>
+                    <p class="card-text"><i class="bi bi-geo-alt-fill me-1 text-danger"></i>Jl. Raja Enda Mora No. 16</p>
                   </div>
                   <div class="col-12">
-                    <p class="card-text"><i class="bi bi-house-fill me-1"></i>Website : https://asrul1302.github.io/Asrul1302/</p>
+                    <p class="card-text"><i class="bi bi-globe me-1 text-primary"></i>https://asrul1302.github.io/Asrul1302/</p>
                   </div>
                   <div class="col-12">
-                    <p class="card-text"><i class="bi bi-envelope-fill me-1"></i>asrulnst83@gmail.com</p>
+                    <p class="card-text"><i class="bi bi-envelope-fill me-1 text-warning"></i>asrulnst83@gmail.com</p>
                   </div>
                   <div class="col-12">
                     <p class="card-text"><a href="https://api.whatsapp.com/send?phone=6281361690812&text=Silahkan Chat" data-toggle="tooltip" target=
-                      "_blank" data-placement="" title="WhatsApp"><i class="bi bi-whatsapp me-1"></i></a>0813-6169-0812</p>
+                      "_blank" data-placement="" title="WhatsApp"><i class="bi bi-whatsapp me-1 text-success"></i></a>0813-6169-0812</p>
                   </div>
                   <div class="col-12">
                     <p class="card-text text-start">
@@ -276,13 +276,10 @@
                   </div>
                 </div>
               </div>
-
             </div>  
-     
           </div>
-
           <div class="col-lg-7">
-            <div class="card">
+            <div class="card1">
               <div class="card-header">
                <h4>Formulir</h4> 
               </div>
@@ -305,7 +302,7 @@
                     <textarea class="form-control" aria-label="With textarea" placeholder="Masukkan pesan anda"></textarea>
                     </div>
                     <div class="col-12">
-                      <button type="submit" class="btn btn-primary">Kirim</button>
+                      <button type="submit" class="btn btn-primary"><i class="bi bi-caret-right-fill"></i> Kirim</button>
                     </div> 
                   </div>  
                 </form>
@@ -324,15 +321,12 @@
     </section>
 
     <!-- footer -->
-
-    
       <div class="container-fluid footer bg-light" id="footer">
         <div class="row">
           <div class="col-sm">
-            <p class="text-center">Created by <i class="bi bi-heart-fill me-1 text-danger"></i>newSKO Studio <i class="bi bi-at me-1"></i>2021</p>
+            <p class="text-center">Created by Asrul EN <i class="bi bi-bootstrap-reboot"></i> 2021</p>
           </div> 
       </div>
-   
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>

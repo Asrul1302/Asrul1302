@@ -2,21 +2,14 @@
   padding-top: 4rem;
   background-color: #d1f3fa;
 }
-.row .card1:hover {
-  box-shadow: 5px 5px 5px #ffffff;
-  transform: scale(1.1);
-}
-#materi {
+
+#skill {
   background-color: #d1f3fa;
 }
 
-#galleri {
+#kontak {
   background-color: #d1f3fa;
 }
 section {
   padding-top: 5rem;
 }
-#footer {
-  background-color: #0dcaf0;
-}
-
